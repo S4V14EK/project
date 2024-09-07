@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Основы работы с DOM</title>
+</head>
+<body>
+    <h1 id="main-heading">Калик</h1>
+    <p id="main-paragraph">Это калик.</p>
+    <ul id="main-list">
+        <li>Калик списка 1</li>
+        <li>Калик списка 2</li>
+        <li>Калик списка 3</li>
+    </ul>
+
+    <button id="change-content">Изменить содержимое</button>
+    <button id="change-style">Изменить стиль</button>
+
+    <form id="add-item-form">
+        <input type="text" id="new-item-text" placeholder="Введите калик">
+        <button type="submit">Добавить калик</button>
+    </form>
+
+    <form id="remove-item-form">
+        <button type="submit">Удалить первый калик</button>
+    </form>
+
+    <form id="message-form">
+        <input type="text" id="message-text" placeholder="Введите калик">
+        <button type="submit">Показать калик</button>
+    </form>
+    <p id="display-message"></p>
+
+    <div id="parent-block">
+        <p>Дочерний Калик 1</p>
+        <p>Дочерний Калик 2</p>
+        <img src="https://via.placeholder.com/100" alt="Пример изображения">
+    </div>
+    <div id="second-block">
+        <p>Калик в блоке 2</p>
+    </div>
+    <button id="change-next-element">Изменить калик следующего элемента</button>
+
+    <ul id="first-list">
+        <li>Первый калик 1</li>
+        <li>Первый калик 2</li>
+        <li>Первый калик 3</li>
+    </ul>
+    <ul id="second-list">
+        <li>Второй калик 1</li>
+        <li>Второй калик 2</li>
+        <li>Второй калик 3</li>
+    </ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
